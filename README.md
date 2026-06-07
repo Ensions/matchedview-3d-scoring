@@ -1,5 +1,4 @@
-# matchedview-3d-scoring
-
+# Matchedview-3D-Scoring
 
 Evaluation notebook for image-to-3D mesh quality, built on Hunyuan3D-2.
 The core idea: instead of comparing the input photo against all rendered views of the mesh, the notebook first finds the rendered views whose silhouettes best match the input photo, then runs CLIP, DINOv2, and SigLIP only on those. This isolates mesh quality from viewpoint mismatch noise.
